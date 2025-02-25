@@ -22,4 +22,4 @@ def test_auth():
     if response.status_code == 200:
         return {"message": "Autenticación exitosa", "status": response.status_code}
     else:
-        return {"error": "Error en la autenticación", "status": response.status_code, "details": response.text}
+        return {"error": "Error en la autenticación", "status": response.status_code, "details": response.text} 
